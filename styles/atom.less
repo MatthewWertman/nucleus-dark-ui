@@ -51,20 +51,20 @@ kbd {
 // Scrollbars ------------------------------------------------------------------
 
 .scrollbars-visible-always {
-  /deep/::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
 
-  /deep/::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: @scrollbar-background-color;
   }
 
-  /deep/::-webkit-scrollbar-corner {
+  ::-webkit-scrollbar-corner {
     background: @scrollbar-background-color;
   }
 
-  /deep/::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     border: 3px solid @scrollbar-background-color;
     background: @scrollbar-color;
@@ -79,15 +79,15 @@ kbd {
 
   atom-panel-container.bottom,
   atom-text-editor {
-    /deep/::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
       background: @base-background-color;
     }
 
-    /deep/::-webkit-scrollbar-corner {
+    ::-webkit-scrollbar-corner {
       background: @base-background-color;
     }
 
-    /deep/::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
       border-color: @base-background-color;
       background: @scrollbar-color;
     }
